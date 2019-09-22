@@ -30,7 +30,7 @@ trans <- 0.5
 
 
 #Begin plot commands.----
-png(filename=phylogeny_figure.path,width=8,height=6,units='in',res=300)
+png(filename=phylogeny_figure.path,width=17.8,height=11.25,units='cm',res=300)
 
 par(mar = c(2,13,2,1), xpd = NA)
 cartoon.plot(phy, type="fan", show.tip.label=FALSE, auto.polies=TRUE, clade.col="grey40")
@@ -39,12 +39,12 @@ tipring(tips=which(myc.assoc=="ECM"), col=alpha(cols1[2], trans), lwd=8, radial.
 tipring(tips=which(pgf.assoc=='gymno'), col = cols2[1], lwd = 6, radial.adj = 1.05, pch=15)
 tipring(tips=which(pgf.assoc=='angio'), col = cols2[2], lwd = 6, radial.adj = 1.05, pch=15)
 #mycorrhizal legend.
-mtext(expression(paste(bold('mycorrhizal association'))), line = -5.1, adj = -.725)
-legend(-800,275, legend = c('arbuscular \nmycorrhizal','ectomycorrhizal'), 
+mtext(expression(paste(bold('mycorrhizal association'))), line = -4.1, adj = -.725)
+legend(-850,275, legend = c('arbuscular \nmycorrhizal','ectomycorrhizal'), 
        pch = 16, col = c(cols1[1],cols1[2]), 
        bty = 'n', x.intersp = 0.7, y.intersp = 1.5, cex = 1)
-mtext(expression(paste(bold('plant growth form'))), line = -13.5, adj = -.625)
-legend(-800,-000, legend = c('gymnosperm','angiosperm'), 
+mtext(expression(paste(bold('plant growth form'))), line = -9.6, adj = -.575)
+legend(-850,-000, legend = c('gymnosperm','angiosperm'), 
        pch = 16, col = c(cols2[1],cols2[2]), 
        bty = 'n', x.intersp = 0.7, y.intersp = 1.5, cex = 1)
 

@@ -1,8 +1,3 @@
----
-title: "Phylogenetic Mycorrhizal Nutrient Economic Trait Analysis"
-output: html_document
----
-
 ## Code to replicate analyses and figures from Averill et al. 2019. (Journal Name)
 This repository contains all code to replicate analyses and figures from *Averill et al. 2019. Global imprint of mycorrhizal fungi on whole-plant nutrient economics. (Journal Name).* In order to run this code, you will need three data files: a phylogeny file, an intraspecific trait file and an interspecific trait file. Because of data sharing restrictions imposed by data providers, this data in only available upon request.
 
